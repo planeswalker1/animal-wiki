@@ -18,3 +18,16 @@ body {
 .initially-shown img {
   width: 100%;
 }
+
+@media screen and (min-width: 960px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section {
+    width: 50%;
+  }
+}
