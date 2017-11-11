@@ -1,0 +1,3 @@
+$('.initially-shown').click(function() {
+
+});
