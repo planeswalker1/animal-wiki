@@ -4,5 +4,6 @@ $('.initially-shown').click(function() {
 });
 
 $('.initially-hidden').click(function() {
-
+  $(this).slideToggle();
+  $(this).prev().slideToggle();
 });
